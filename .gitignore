@@ -1,0 +1,11 @@
+/tmp
+/target
+/target_*
+/cmake_build*
+/doc/*
+o/*
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.log
+/local-build.rb
