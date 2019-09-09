@@ -6,6 +6,12 @@
 #if !defined(NOEXCEPT_CTCHECK_PUB_HPP_)
 #define NOEXCEPT_CTCHECK_PUB_HPP_
 
+// The current version is 1.0.0
+// The version 1.3.14 will be 1003014
+// The version 2.45.145 will be 2045145.
+// And so on.
+#define NOEXCEPT_CTCHECK_VERSION 1000000
+
 #if defined(NOEXCEPT_CTCHECK_DISABLE)
 
 	#define NOEXCEPT_CTCHECK_ENSURE_NOEXCEPT_STATEMENT(stmt) \
